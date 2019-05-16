@@ -43,10 +43,10 @@ class Student
   
   def self.new_from_db(row)
     student = self.new  # self.new is the same as running Song.new
-    new_student.id = row[0]
-    new_student.name =  row[1]
-    new_student.grade = row[2]
-    new_student  # return the newly created instance
+    student.id = row[0]
+    student.name =  row[1]
+    student.grade = row[2]
+    student  # return the newly created instance
   end
   
   def self.find_by_name(name)
