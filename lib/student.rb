@@ -98,7 +98,7 @@ class Student
   end
   
   def first_student_in_grade_10
-     self.first_X_students_in_grade_10(limit).first
+     self.first_X_students_in_grade_10(1).first
    end
   
   def self.all_students_in_grade_X(grade)
